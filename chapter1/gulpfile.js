@@ -20,5 +20,5 @@ gulp.task('test', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch(['./course.js', './student.js'], ['test']);
+  gulp.watch(['./test.js', './interface.js'], ['test']);
 });
